@@ -1,0 +1,87 @@
+.about-us-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 40px 20px;
+}
+
+.about-us-content {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-content h1 {
+    color: #2d5016;
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #4CAF50;
+    padding-bottom: 15px;
+}
+
+.company-info {
+    line-height: 1.8;
+}
+
+.company-section {
+    margin-bottom: 35px;
+}
+
+.company-section h2 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.company-section p {
+    color: #555;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.company-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.company-section ul li {
+    color: #555;
+    font-size: 1.1em;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.company-section ul li:last-child {
+    border-bottom: none;
+}
+
+.about-us-footer {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 2px solid #eee;
+}
+
+.tagline {
+    color: #2d5016;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .about-us-content {
+        padding: 30px 20px;
+    }
+
+    .about-us-content h1 {
+        font-size: 2em;
+    }
+
+    .company-section h2 {
+        font-size: 1.5em;
+    }
+}
